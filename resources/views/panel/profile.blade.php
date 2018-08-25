@@ -1,6 +1,6 @@
 @extends('master')
 @section('content')
-<div class="container-fluid">
+<div class="container-fluid" id="profile">
     <h3 class="mb-5">Hotel Name Here</h3>
     <div class="mb-4">
         <div class="mr-3 btn btn-secondary">
@@ -20,4 +20,5 @@
         profile
     </div>
 </div>
+<script src="{{ asset('vue/profile.js') }}"></script>
 @endsection
