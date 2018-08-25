@@ -108,18 +108,90 @@
 				<tbody class="collapse col-special-head" id="runOfHouse">
 					<tr>
 						<td>Autoload</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
 					</tr>
 					<tr>
 						<td>Rooms Sold</td>
@@ -311,78 +383,438 @@
 				<tbody class="collapse col-special-head" id="promo">
 					<tr>
 						<td>HT Perks</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
 					</tr>
 					<tr>
 						<td>Local Rates</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
-						<td>ON</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
 					</tr>
 					<tr>
 						<td>Daily Drop</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
 					</tr>
 					<tr>
 						<td>Tonight +1</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
 					</tr>
 					<tr>
 						<td>Multi Night</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
-						<td>DISABLED</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
+						<td>
+							<label class="switch switch-text switch-secondary">
+								<input type="checkbox" class="switch-input" checked="">
+								<span class="switch-label" data-on="On" data-off="Off"></span>
+								<span class="switch-handle"></span>
+							</label>
+						</td>
 					</tr>
 				</tbody>
 			</table>
