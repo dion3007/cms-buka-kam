@@ -16,6 +16,9 @@ Auth::routes();
 
 Route::middleware('auth')->group(function() {
 	Route::view('/', 'panel.inventory');
+
+	Route::get('/profile', 'ProfileController@index');
+
 	// Section CoreUI elements
 	Route::view('/sample/dashboard','samples.dashboard');
 	Route::view('/sample/buttons','samples.buttons');

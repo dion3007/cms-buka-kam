@@ -2,7 +2,7 @@
   <nav class="sidebar-nav">
     <ul class="nav">
       <li class="nav-item">
-        <a class="nav-link" href="/"><i class="icon-chart"></i> Inventory </a>
+        <a class="nav-link" href="<?=URL::to('/');?>"><i class="icon-chart"></i> Inventory </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/sample/dashboard"><i class="icon-calendar"></i> Booking</a>
@@ -11,7 +11,7 @@
         <a class="nav-link" href="/sample/dashboard"><i class="icon-bubbles"></i> Review</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/sample/dashboard"><i class="icon-user"></i> Profile</a>
+        <a class="nav-link" href="<?=URL::to('/profile');?>"><i class="icon-user"></i> Profile</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/sample/dashboard"><i class="icon-settings"></i> Settings</a>
