@@ -41,13 +41,23 @@
                         <div>
                         <h1 class="text-center">b u k a k a m a r</h1>
                         <p class="text-muted text-center">Please login your account.</p>
-                        <form method="POST" action="{{ route('register') }}">
+                        <form method="POST" action="{{ url('newUser') }}">
                         {{ csrf_field() }} 
                         <div class="input-group mb-3">
                           <span class="input-group-addon"><i class="icon-user"></i></span>
-                          <input type="text" name="name" class="form-control" placeholder="Username">
+                          <input type="text" name="hotelname" class="form-control" placeholder="Hotel name">
+                        </div>
+
+                        <div class="input-group mb-3">
+                          <span class="input-group-addon"><i class="icon-user"></i></span>
+                          <input type="text" name="firstname" class="form-control" placeholder="Firstname">
                         </div>              
-            
+
+                        <div class="input-group mb-3">
+                          <span class="input-group-addon"><i class="icon-user"></i></span>
+                          <input type="text" name="lastname" class="form-control" placeholder="Lastname">
+                        </div>
+
                         <div class="input-group mb-3">
                           <span class="input-group-addon">@</span>
                           <input type="text" name="email" class="form-control" placeholder="Email">

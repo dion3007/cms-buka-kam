@@ -14,6 +14,8 @@
 Auth::routes();
 /* CoreUI templates */
 
+Route::post('newUser', 'UserController@postUsers');
+
 Route::middleware('auth')->group(function() {
 	Route::view('/', 'panel.inventory');
 	// Section CoreUI elements
