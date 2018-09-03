@@ -16,7 +16,7 @@ class UserController extends Controller
 			]);
 			
 			$response = $client->request('POST', 'v1/authenticate/create/new-hotel', [
-                'form_params' => [
+                'json' => [
 					'email'=> $request->email,
                     'password'=> $request->password,
                     'profile' => [
