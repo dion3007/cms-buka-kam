@@ -1,3 +1,4 @@
+application/x-httpd-php web.php ( PHP script, ASCII text )
 <?php
 
 /*
@@ -15,8 +16,10 @@ Auth::routes();
 /* CoreUI templates */
 
 Route::post('newUser', 'UserController@postUsers');
+Route::post('logUser', 'UserController@postLogin');
+Route::get('logoutUser', 'UserController@postLogout');
 
-Route::middleware('auth')->group(function() {
+Route::group(['middleware' => 'usersession'], function () {
 	Route::view('/', 'panel.inventory');
 	// Section CoreUI elements
 	Route::view('/sample/dashboard','samples.dashboard');

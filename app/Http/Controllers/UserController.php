@@ -27,10 +27,33 @@ class UserController extends Controller
                     ]
 				]
             ]);
-            
-			$body = $response->getBody()->getContents();
 
             dd($response);
+        } catch(Exception $e) {
+			dd($e->getMessage());
+		}
+	}
+	
+	public function postLogin(Request $request){
+        try {
+			$client = new Client([
+                'base_uri' => 'https://buka-kamar-auth-webapi.herokuapp.com/',
+                'headers' => [
+                    'Content-Type' => 'application/json'
+                ],
+			]);
+			$data = [
+                'username'=> $request->email,
+                'password'=> $request->password
+            ];
+
+			$response = $client->request('POST', 'v1/authenticate/user', [
+                'body' => json_encode($data),
+            ]);
+            
+			$body = json_decode($response->getBody()->getContents());
+            Session::put('token', $body->data);
+            return redirect('/');
         } catch(Exception $e) {
 			dd($e->getMessage());
 		}
